@@ -13,4 +13,3 @@ Share an example of using the command with a path to a file as an argument.
 
 1) An example of using the cd command without any arguemnts would look be as followed:
 
-![Image](lab1ScreenShot1.png)

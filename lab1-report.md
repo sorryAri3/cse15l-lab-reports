@@ -1,7 +1,7 @@
 # Lab Report 1 - Remote Access and FileSystem
 
 
-For each of the commands == cd ==, == ls ==, and == cat ==, and using the workspace you created in this lab we are doing the following:
+For each of the commands ```cd```,```ls```, and ```cat```, and using the workspace you created in this lab we are doing the following:
 
 * Share an example of using the command with no arguments.
 

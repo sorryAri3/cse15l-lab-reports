@@ -12,4 +12,5 @@ For each of the commands ```cd```,```ls```, and ```cat```, and using the workspa
 ## cd
 
 1) An example of using the cd command without any arguemnts would look be as followed:
+   ![Image](http://url/a.png)
 

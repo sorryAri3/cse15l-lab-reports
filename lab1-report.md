@@ -3,7 +3,7 @@
 
 For each of the commands `cd`,`ls`, and `cat`, and using the workspace you created in this lab we are doing the following:
 
-* Share an example of using the command with no arguments.
+* Share an example of using the command with no arguments. 
 
 * Share an exmaple of using the command with a path to a directory as an argument.
 

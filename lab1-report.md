@@ -23,5 +23,6 @@ We see again, there is no output. However we can notice, when we use the command
 
 3) Finally, lets naviagate to a file.
    ![Image](cd3.png)
-   
+
+It looks like there is an error. Why is that? This is because `cd` means change directory. When we pass an arguement with a file, a file is not a directory. Therefore if 
 

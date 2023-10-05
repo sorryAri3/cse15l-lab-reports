@@ -64,3 +64,5 @@ We see the output `cat: lecture: Is a directory` This is because the purpose of 
 3) Finally, lets print what the command is wanting us to do, aka a file
 
 ![Image](cat3.png)
+
+This is all the contents of the Hello.java file! `Hello.java` is a file in the `messages` directory in `lecture1`.

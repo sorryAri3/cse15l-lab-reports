@@ -11,6 +11,8 @@ For each of the commands `cd`,`ls`, and `cat`, and using the workspace you creat
 
 ## cd
 
+### Small overview, the `cd` command stands for "change directory", this will switch whatever respective directory we are orignally in to the one we are calling.
+
 1) An example of using the `cd` command without any arguements would look be as followed
    ![Image](cd1.png)
 
@@ -24,5 +26,9 @@ We see again, there is no output. However we can notice, when we use the command
 3) Finally, lets naviagate to a file.
    ![Image](cd3.png)
 
-It looks like there is an error. Why is that? This is because `cd` means change directory. When we pass an arguement with a file, a file is not a directory. Therefore if 
+
+It looks like there is an error. Why is that? This is because `cd` means change directory. When we pass an arguement with a file, a file is not a directory. Therefore if we run the command `cd` and try to access a file that is not in the current directory or the file itself, an error will occur becasue there is no directory that matches that name.
+
+## ls
+
 

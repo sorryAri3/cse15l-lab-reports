@@ -40,3 +40,7 @@ Here, we see the output is lecture1, this is becasue we are curerntly in the hom
 2) Next, lets access a directory with this command: 
 ![Image](ls2.png)
 
+Since we have accessed the directory, we can show the name of the files and folders
+
+3) Finally, we will use the `ls` command to a file:
+![Image](ls3.png)

@@ -65,4 +65,4 @@ We see the output `cat: lecture: Is a directory` This is because the purpose of 
 
 ![Image](cat3.png)
 
-This is all the contents of the Hello.java file! `Hello.java` is a file in the `messages` directory in `lecture1`.
+This is all the contents of the Hello.java file! `Hello.java` is a file in the directory `lecture1`. So the path `cd lecture1/Hello.java` will access the directory of lecture 1 and the file of Hello.java and print its contents!

@@ -37,7 +37,7 @@ It looks like there is an error. Why is that? This is because `cd` means change 
 
 Here, we see the output is lecture1, this is becasue we are curerntly in the home directory. if we change our path to lecture1, and then run the empty `ls` command, we would see the contents within leture 1. 
 
-2) Next, lets access a directory with this commsnf
+2) Next, lets access a directory with this command
 
 3) ![Image](ls2.png)
 

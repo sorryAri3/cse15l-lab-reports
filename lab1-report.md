@@ -35,6 +35,9 @@ It looks like there is an error. Why is that? This is because `cd` means change 
 1) An example of using `ls` as itself and no entitity to folllow is:
   ![Image](ls1.png)
 
-Here, we see the output is lecture1, this is becasue we are curerntly 
+Here, we see the output is lecture1, this is becasue we are curerntly in the home directory. if we change our path to lecture1, and then run the empty `ls` command, we would see the contents within leture 1. 
 
+2) Next, lets access a directory with this path
+
+3) ![Image](ls.png)
 

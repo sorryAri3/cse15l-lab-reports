@@ -45,7 +45,7 @@ Since we have accessed the directory, we can show the name of the files and fold
 3) Finally, we will use the `ls` command to a file:
 ![Image](ls3.png)
 
-using the `ls lecture1/messages` command, we can see the contents of this file
+using the `ls lecture1/messages` command, we can see the contents of this file. If we were to run another ls command to a file such as `Hello.class`, there is only "one file" within the "file" so we would get the output `Hello.class` as it is a single entitiy.
 
 ## cd 
 #### Lets now utilize the cat command. cat is shorthand for "concatenate"- which is uswed to print the contents that are in the files of the respective path.
@@ -58,3 +58,9 @@ Confusing right? What do we do now? We see this visual because when we run a `ca
 2) Next, lets run cat with a path to a directory
 
 ![Image](cat2.png)
+
+We see the output `cat: lecture: Is a directory` This is because the purpose of `cat` is to print the contents of the files. When we call `cat` to something other than a file, there ovbiosly is nothing to print therefore we incur this error message.
+
+3) Finally, lets print what the command is wanting us to do, aka a file
+
+![Image](cat3.png)

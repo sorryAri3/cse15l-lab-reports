@@ -35,3 +35,6 @@ It looks like there is an error. Why is that? This is because `cd` means change 
 1) An example of using `ls` as itself and no entitity to folllow is:
   ![Image](ls1.png)
 
+Here, we see the output is lecture1, this is becasue we are curerntly 
+
+

@@ -40,7 +40,21 @@ Here, we see the output is lecture1, this is becasue we are curerntly in the hom
 2) Next, lets access a directory with this command: 
 ![Image](ls2.png)
 
-Since we have accessed the directory, we can show the name of the files and folders
+Since we have accessed the directory, we can show the name of the files and folders within that directory.
 
 3) Finally, we will use the `ls` command to a file:
 ![Image](ls3.png)
+
+using the `ls lecture1/messages` command, we can see the contents of this file
+
+## cd 
+#### Lets now utilize the cat command. cat is shorthand for "concatenate"- which is uswed to print the contents that are in the files of the respective path.
+
+1) As we have continually done, lets run cat without any arguemnt:
+![Image](cat1.png)
+
+Confusing right? What do we do now? We see this visual because when we run a `cat` command the console is waiting for us to input something until we personally terminate the program
+
+2) Next, lets run cat with a path to a directory
+
+![Image](cat2.png)

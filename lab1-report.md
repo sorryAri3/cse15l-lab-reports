@@ -19,7 +19,7 @@ For each of the commands `cd`,`ls`, and `cat`, and using the workspace you creat
 In this, we see that when we run the `cd` command in the working directory `home`, the following output does not produce anything. It is simply the action of us changing the directory. `cd` without arguemnts will just return us to the home directory
 
 2) An example of using the command with a path a directory as as arguement would show the following
- 
+ ![Image](cd2.png)
 
 We see again, there is no output. However we can notice, when we use the command with a a path to the directory to the terminal, in this case lecture 1, the new line to write a new command displays `user@sahara ~/lecture1]$` meaning that we are now working out of the directory of lecture1 
 
@@ -43,7 +43,7 @@ Here, we see the output is lecture1, this is becasue we are curerntly in the hom
 Since we have accessed the directory, we can show the name of the files and folders within that directory.
 
 3) Finally, we will use the `ls` command to a file:
-
+![Image](ls3.png)
 
 using the `ls lecture1/messages` command, we can see the contents of this file. If we were to run another ls command to a file such as `Hello.class`, there is only "one file" within the "file" so we would get the output `Hello.class` as it is a single entitiy.
 

@@ -47,7 +47,7 @@ Since we have accessed the directory, we can show the name of the files and fold
 
 using the `ls lecture1/messages` command, we can see the name of the files within this folder, in this case being the name of the text files of the respective languages translating to "Hello World!". If we were to run another ls command to a file such as `Hello.class`, there is only "one file" within the "file" so we would get the output `Hello.class` as it is a single entitiy. This is not an error as we are displaying the name of a certain file
 
-## cd 
+## cat
 #### Lets now utilize the cat command. cat is shorthand for "concatenate"- which is uswed to print the contents that are in the files of the respective path.
 
 1) As we have continually done, lets run cat without any arguemnt:

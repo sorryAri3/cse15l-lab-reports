@@ -49,15 +49,24 @@ using the `ls lecture1/messages` command, we can see the name of the files withi
 
 ## cd 
 #### Lets now utilize the cat command. cat is shorthand for "concatenate"- which is uswed to print the contents that are in the files of the respective path.
-![Image](<img width="473" alt="Screenshot 2023-10-17 at 10 38 37 AM" src="https://github.com/sorryAri3/cse15l-lab-reports/assets/144184249/141b689f-c2fc-4151-a264-6d8ebcd99e08">)
 
 1) As we have continually done, lets run cat without any arguemnt:
 ![Image](cat1.png)
 
-Confusing right? What do we do now? We see this visual because when we run a `cat` command the console is waiting for us to input something until we personally terminate the program
+Confusing right? What do we do now? We see this visual because when we run a `cat` command the console is waiting for us to input something until we personally terminate the program. But as we are waiting, what happens if we input something into the console?
+
+![Image](cat4.png)
+
+There seems to be a duplication of any output that keeps on running until we eventually terminate the program. This is could be considered an error as there is nothing to come of it and running an empty `cat` command is insuffienct. It is important to mention in both cases, we are working from the `home` directory. So even with access to an abundance of folders with contents, `cat` empty still will not give us anything more.
 
 2) Next, lets run cat with a path to a directory
 
 ![Image](cat2.png)
 
-We see the output `cat: lecture: Is a directory` This is because the purpose of `cat` is to print the contents of the files. When we call `cat` to something other than a file, there ovbiosly is nothing to print therefore we incur this error message.
+In this command, we are actually working out of the `home` directory. Therefore `cat lecture1` is a file in the direfctroy and is accessible to make arguemnts and commands for. We see the output `cat: lecture: Is a directory` This is because the purpose of `cat` is to print the contents of the files. When we call `cat` to something other than a file, there ovbiously is nothing to print therefore we incur this error message. 
+
+3) Finally, lets run what the command is actually needed for, printing the contents of a file:
+
+![Image](cat3.png)
+
+This is all the contents of the Hello.Java file! In order to get this output, we have to access the `lecture1` directory once again, which gives access to this file directly if needed. We could `cat lecture1/Hello.java` to directly access the lecture1 directory and print the contents of the Hello.java program. This is not an error!

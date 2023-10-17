@@ -16,7 +16,7 @@ For each of the commands `cd`,`ls`, and `cat`, and using the workspace you creat
 1) An example of using the `cd` command without any arguements would look be as followed
    ![Image](cd1.png)
 
-In this, we see that when we run the `cd` command in the working directory `home`, the following output does not produce anything. It is simply the action of us changing the directory. `cd` without arguemnts will just return us to the home directory
+In this, we see that when we run the `cd` command in the working directory `home`, the following output does not produce anything. It is simply the action of us changing the directory. `cd` without arguemnts will just return us to the home directory. This is technically not an error. As we have the cd command is change directory, yet when there is not an argument to follow, it will show us the c
 
 2) An example of using the command with a path a directory as as arguement would show the following
  ![Image](cd2.png)

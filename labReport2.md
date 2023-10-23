@@ -20,7 +20,7 @@ The following is the path to the **PRIVATE** key for your SSH key for logging in
 ![Image](privatessh.png)
 
 The following is the path to the **PUBLIC** key for your SSH key for logging into ieng6: 
-![Image](publicssh.png)
+![Image](publicKey.png)
 
 Here is the terminal interaction in which I did not need to provide a key to log into my ieng6 account!: 
 ![Image](termInteraction.png)

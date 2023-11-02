@@ -17,7 +17,7 @@ Next we will change it up a bit, We are still utilizng the same methods, and the
 ## USING LS IN PUBLIC AND PRIVATE SERVERS ##
 
 The following is the path to the **PRIVATE** key for your SSH key for logging into ieng6: 
-![Image](privatessh.png)
+![Image](privateKey.png)
 
 The following is the path to the **PUBLIC** key for your SSH key for logging into ieng6: 
 ![Image](publicKey.png)

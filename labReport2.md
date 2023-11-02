@@ -6,11 +6,11 @@ First, lets show the code we are working with in order to make sure the outputs 
 
 
 
-The methods called in this screenshot is the `add-message`, the query, and the phrase that we are writing after the `s=` block. The relevant arguemnts that we will be passing through the methods are those that we want displayed on the computer screen. In this case, the assignment calls for certain string values to appear sequentially. The program will take in anything past the `s=` block and print that on the screen, increment the number, and move on. In this first case, we utilized the path of `/add-message?s=Hello` and our output was what we expected:
+The methods called in this screenshot is the `add-message`, the query, and the phrase that we are writing after the `s=` block. Our fields **num** and **phrase** are initialized to 0, and "". This is our baseline, and as we pass arguments, they will update and take those values. The relevant arguements that we will be passing through the methods are those that we want displayed on the computer screen. In this case, the assignment calls for certain string values to appear sequentially. The program will take in anything past the `s=` block and print that on the screen, increment the number, and move on. In this first case, we utilized the path of `/add-message?s=Hello` and our output was what we expected:
 
 ![Image](lab2ss1.png)
 
-Next we will change it up a bit, We are still utilizng the same methods, and the plan is for anything after the `s=`to be printed on the screen, however now, we hae some changes. Our number we saw before the first "Hello!", will now be changed and incremented by a factor of 1, and this trend actually continues the more we input certain strings. We will now add a new message, but this is more of a statement. It does the same thing it is supposed to, however the field that changes now is the incremented number: 
+Next we will change it up a bit, We are still utilizng the same methods, and the plan is for anything after the `s=`to be printed on the screen, however now, we hae some changes. Our number we saw before the first "Hello!", will now be changed and incremented by a factor of 1, and this trend actually continues the more we input certain string arguemnts to update the field values. We will now add a new message, but this is more of a statement. It does the same thing it is supposed to, however the field that changes now is the incremented number and the phrase is now updated and displayed under our first argument. This trend will continue the more arguments we pass in the URL: 
 
 ![Image](lab2ss2.png)
 

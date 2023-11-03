@@ -1,2 +1,3 @@
+# LAB 3 REPORT #
 
-o
+## Symptoms and Failure- Inducing Inputs using Array Methods ##

@@ -53,7 +53,7 @@ public class ArrayExamples {
   }
 ```
 ## Running tests symptom!
-![Image](TESTlabReport3.png)
+![Image](TESTSlabReport3.png)
 
 The symptom is the array was not reversed as it was suppossed too. The symptom of the bug would be a constant output of zero
 

@@ -53,9 +53,31 @@ public class ArrayExamples {
   }
 ```
 ## Running tests symptom!
+![Image](TESTlabReport3.png)
 
+The symptom is the array was not reversed as it was suppossed too. The symptom of the bug would be a constant output of zero
 
+## Bug Before and After
 
+### Before
+ ```
+ static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+### After
 
-
-
+```
+ static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[arr.length - i - 1] = arr[i];
+    }
+    return newArray;
+  }
+```
+The code that changes is that the newArray takes the value of the 0 element making the reveresed method tracking backwards instead of forwards.

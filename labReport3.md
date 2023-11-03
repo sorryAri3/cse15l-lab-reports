@@ -38,9 +38,8 @@ public class ArrayTests {
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{7,6,5,4,3 }, input1);
 	}
-
-### TEST CODE
 ```
+### Test Code
 public class ArrayExamples {
 
   // Changes the input array to be in reversed order

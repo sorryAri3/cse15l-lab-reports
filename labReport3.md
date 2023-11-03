@@ -81,3 +81,5 @@ The symptom is the array was not reversed as it was suppossed too. The symptom o
   }
 ```
 The code that changes is that the newArray takes the value of the 0 element making the reveresed method tracking backwards instead of forwards.
+
+L

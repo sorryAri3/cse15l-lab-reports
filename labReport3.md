@@ -6,7 +6,7 @@ The bug I am choosin for this lab report is the `reversedInPlace` bug.
 
 ### The failure inducing input
 
-
+```
 public class ArrayTests {
 	@Test 
 	public void testReverseInPlace() {
@@ -22,6 +22,7 @@ public class ArrayTests {
     assertArrayEquals(new int[]{7,6,5,4,3}, ArrayExamples.reversed(input1));
   }
 }
+```
 
 ### TEST CODE 
 ``` public class ArrayExamples {

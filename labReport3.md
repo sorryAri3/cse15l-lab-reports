@@ -112,5 +112,14 @@ The `-E` option and then following a text-string, grep will act on any expressio
 
 `-r` is when you want to search in all the files under the current directory and its sub directory. `-r` looks for the string in the current directory and all it’s subdirectory and displays the file it is in as well as the entire line it is on.
 
+### 3) `grep -oiE '\__\w+' "__".txt`
+
+`grep -oiE '\by\w+' technical/911report/chapter-1.txt`
+#### TEST AND OUTPUT: 
+![Image](grep-oiE1.png)
+
+`grep -oiE '\bz\w+' technical/911report/chapter-9.txt`
+#### TEST AND OUTPUT:
+![Image](grep-oiE2.png)
 
 

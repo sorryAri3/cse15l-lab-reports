@@ -138,7 +138,7 @@ To find all words that begin with the letter after the b within the slash , eith
 
 **`grep -iw "string" file`**
 
-`iw` searches for the substring within a word, the `i` takes care of the syntax based on the capitalization. `w` has to do with locating the substring within a string. It dispalys the entire line of any trace of the word.
+`iw` searches for the substring within a word, the `i` takes care of the syntax based on the capitalization. `w` has to do with locating the substring within a string. It dispalys the entire line of any trace of the word!
 
 # ALL SOURCES WERE FOUND VIA GOOGLE AND ARE LINKED BELOW: 
 

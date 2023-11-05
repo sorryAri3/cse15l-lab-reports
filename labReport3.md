@@ -84,5 +84,10 @@ The code that changes is that the newArray takes the value of the 0 element maki
 
 ## PART 2 - COMMAND RESEARCH : GREP
 
+### grep -oE '\w*STRING\w*' "..".txt
+
+`grep -o 'base pair' grep -oE "w×ratings\w' technical/911report/chapter-1.t×t`
+
+
 
 

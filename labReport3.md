@@ -122,4 +122,5 @@ The `-E` option and then following a text-string, grep will act on any expressio
 #### TEST AND OUTPUT:
 ![Image](grep-oiE2.png)
 
+**`grep -oiE '\__\w+' "__".txt`**
 

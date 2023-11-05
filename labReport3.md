@@ -142,9 +142,9 @@ To find all words that begin with the letter after the b within the slash , eith
 
 # ALL SOURCES WERE FOUND VIA GOOGLE AND ARE LINKED BELOW: 
 
-### [Link](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
+### [https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
 
-### [Link](http://www.compciv.org/recipes/grep/basics-of-grep/)
+### [http://www.compciv.org/recipes/grep/basics-of-grep/](http://www.compciv.org/recipes/grep/basics-of-grep/)
 
 
 `

@@ -123,6 +123,29 @@ The `-E` option and then following a text-string, grep will act on any expressio
 ![Image](grep-oiE2.png)
 
 **`grep -oiE '\__\w+' "__".txt`**
+
 To find all words that begin with the letter after the b within the slash , either upper or lowercase, we use the `-i` flag and the following regular expression- we use `/b` for the word boundary, aka the beginning of the word. As from above, The `-E` option and then following a text-string, grep will act on any expression syntax in that particular text-string.To find all words that are either the word or a the word as part of a bigger word, use `-E` to specify the pattern, combined with `-o` to show just the matched word. 
 
+### 4) `grep -iw "string" file
+
+`-iw "line" technical/biomed/1468-6708-3-7.txt`
+#### TEST AND OUTPUT: 
+![Image](grep-iw1.png)
+
+`grep -iw "worked"' technical/911report/chapter-6.txt`
+#### TEST AND OUTPUT:
+![Image](grep-iw2.png)
+
+**`grep -iw "string" file`**
+
+`iw` searches for the substring within a word, the `i` takes care of the syntax based on the capitalization. `w` has to do with locating the substring within a string. It dispalys the entire line of any trace of the word.
+
+# ALL SOURCES WERE FOUND VIA GOOGLE AND ARE LINKED BELOW: 
+
+### [Link](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
+
+### [Link](http://www.compciv.org/recipes/grep/basics-of-grep/)
+
+
+`
 

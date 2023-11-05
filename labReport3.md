@@ -90,3 +90,11 @@ The code that changes is that the newArray takes the value of the 0 element maki
 #### TEST AND OUTPUT: 
 ![Image](grep-oE1.png)
 
+`grep -oiE '\by\w+' technical/911report/chapter-1. txt`
+#### TEST AND OUTPUT:
+![Image](grep-oE2.png)
+
+**`grep -oE '\w*STRING\w*' "..".txt`**
+
+The -E option and then following a text-string, grep will act on any expression syntax in that particular text-string.To find all words that are either the word or a the word as part of a bigger word, use -E to specify the pattern, combined with -o to show just the matched word, and not the entire line it is on.
+

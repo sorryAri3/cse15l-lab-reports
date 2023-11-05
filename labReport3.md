@@ -84,7 +84,7 @@ The code that changes is that the newArray takes the value of the 0 element maki
 
 ## PART 2 - COMMAND RESEARCH : GREP
 
-### `grep -oE '\w*STRING\w*' "..".txt`
+### 1) `grep -oE '\w*STRING\w*' "..".txt`
 
 `grep -o 'base pair' grep -oE "w×ratings\w' technical/911report/chapter-1.t×t`
 #### TEST AND OUTPUT: 
@@ -96,5 +96,21 @@ The code that changes is that the newArray takes the value of the 0 element maki
 
 **`grep -oE '\w*STRING\w*' "..".txt`**
 
-The -E option and then following a text-string, grep will act on any expression syntax in that particular text-string.To find all words that are either the word or a the word as part of a bigger word, use -E to specify the pattern, combined with -o to show just the matched word, and not the entire line it is on.
+The `-E` option and then following a text-string, grep will act on any expression syntax in that particular text-string.To find all words that are either the word or a the word as part of a bigger word, use `-E` to specify the pattern, combined with `-o` to show just the matched word, and not the entire line it is on. The `"w"` in between each string has to do with that respective word itself.
+
+### 2) `grep -r "string" "/.."`
+
+`grep -r "sandwich" technical/biomed`
+#### TEST AND OUTPUT: 
+![Image](grep-r1.png)
+
+`grep -r "sandwich" technical/plos`
+#### TEST AND OUTPUT:
+![Image](grep-r2.png)
+
+**grep -r "string" "/.."`**
+
+`-r` is when you want to search in all the files under the current directory and its sub directory. `-r` looks for the string in the current directory and all it’s subdirectory and displays the file it is in as well as the entire line it is on.
+
+
 

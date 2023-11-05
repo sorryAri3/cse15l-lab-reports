@@ -87,7 +87,6 @@ The code that changes is that the newArray takes the value of the 0 element maki
 ### grep -oE '\w*STRING\w*' "..".txt
 
 `grep -o 'base pair' grep -oE "w×ratings\w' technical/911report/chapter-1.t×t`
-
-
-
+#### TEST AND OUTPUT: 
+![Image](grep-oE1.png)
 

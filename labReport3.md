@@ -123,4 +123,6 @@ The `-E` option and then following a text-string, grep will act on any expressio
 ![Image](grep-oiE2.png)
 
 **`grep -oiE '\__\w+' "__".txt`**
+To find all words that begin with the letter after the b within the slash , either upper or lowercase, we use the `-i` flag and the following regular expression- we use `/b` for the word boundary, aka the beginning of the word. As from above, The `-E` option and then following a text-string, grep will act on any expression syntax in that particular text-string.To find all words that are either the word or a the word as part of a bigger word, use `-E` to specify the pattern, combined with `-o` to show just the matched word. 
+
 

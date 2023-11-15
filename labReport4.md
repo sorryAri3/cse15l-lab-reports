@@ -2,24 +2,39 @@
 
 ## We are to repeat steps 4-9 and demostrate what we did down below::
 
-### Step 4: Log into ieng6
+#### Step 4: Log into ieng6
 I clicked on `Ctrl-R` to check the history of my recent searches and typed in `ss` followed by `<Enter>` to autofill to `ssh cs15lfa23nh@ieng.ucsd.edu` 
 
 ![Image](step4.png)
 
-### Step 5: Clone your fork of the repository from your Github account (using the SSH URL)
+#### Step 5: Clone your fork of the repository from your Github account (using the SSH URL)
 After copying the ssh URL from the forked repository on github, I typed in `git clone` followed by `command-V` to paste the ssh URL which was `git@github.com:sorryAri3/lab7.git` followed by `<Enter>`
 
 ![Image](step5.png)
 
-### Step 6: Run the tests, demonstrating that they fail
-Typed in `bash grades.sh` followed by `<Enter>` to obtain the following:
+#### Step 6: Run the tests, demonstrating that they fail
+Typed in `bash tests.sh` followed by `<Enter>` to obtain the following:
 
 ![Image](step6.png)
 
 
-### Step 7: Edit the code file to fix the failing test
+#### Step 7: Edit the code file to fix the failing test
+Opened up the text editor by typing `vim ListExamples.java` followed by `<Enter>`
 
-### Step 8: Run the tests, demonstrating that they now succeed
+**Inside Vim**
+- Typed `/index1` followed by `<Enter>`
+- `n,n,n,n,n,n,n,n,n` --> utilized the **n** key nine times to get to the piece of the code we wanted to edit:
+- pressed `<space>,<space>,<space>,<space>,<space>,<space>,<space>,<space>,<space>` --> space 9 times to get cursor right above the *1* in *index1*
 
-### Step 9: Commit and push the resulting change to your Github account
+![Image](step7(1).png)
+
+- Typed `r,2` in order to replace the *1* in *index1* with **2** to make **index2**
+![Image](step7(2).png)
+
+- Typed `:` `w` `q` `!` to save and quit out of the vim program
+- 
+#### Step 8: Run the tests, demonstrating that they now succeed
+Took a quicker way and typed `Ctrl-R` followed by `b` `a` `s` then `<Enter>` to reobtain the command `bash tests.sh`. After pressing `<Enter>` once more, I obtained:
+![Image](step8.png)
+
+#### Step 9: Commit and push the resulting change to your Github account

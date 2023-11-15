@@ -11,7 +11,11 @@ I clicked on `Ctrl-R` to check the history of my recent searches and typed in `s
 After copying the ssh URL from the forked repository on github, I typed in `git clone` followed by `command-V` to paste the ssh URL which was `git@github.com:sorryAri3/lab7.git` followed by `<Enter>`
 
 ![Image](step5.png)
+
 ### Step 6: Run the tests, demonstrating that they fail
+Typed in `bash grades.sh` followed by `<Enter>` to obtain the following:
+
+![Image](step6.png)
 
 
 ### Step 7: Edit the code file to fix the failing test

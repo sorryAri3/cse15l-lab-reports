@@ -45,3 +45,4 @@ Took a quicker way and typed `Ctrl-R` followed by `b` `a` `s` then `<Enter>` to 
 ![Image](step9(2).png)
 
 All done! Here is a photo of the changed code in my repository on GitHub:  
+![Image](step9(3).png)

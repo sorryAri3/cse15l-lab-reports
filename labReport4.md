@@ -39,10 +39,9 @@ Took a quicker way and typed `Ctrl-R` followed by `b` `a` `s` then `<Enter>` to 
 
 #### Step 9: Commit and push the resulting change to your Github account
 - typed `git add ListExamples.java` and `<Enter>` followed by `git Commit` and `<Enter>`. Once prompted to create a command message, pressed <Enter> once more, followed by `I` to insert messsage and typed `I finished the lab!` - then clicked `<Esc>` followed by `:` `w` `q` `!` in order to save the commit message.
-- Typed in `git push` followed by `<Enter>` to obtain:
+ ![Image](step9(1).png)
 
-![Image](step9(1).png)
+- Typed in `git push` followed by `<Enter>` to obtain:
+![Image](step9(2).png)
 
 All done! Here is a photo of the changed code in my repository on GitHub:  
-
-![Image](step9(2).png)

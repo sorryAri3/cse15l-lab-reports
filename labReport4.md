@@ -32,7 +32,7 @@ Opened up the text editor by typing `vim ListExamples.java` followed by `<Enter>
 ![Image](Photos/step7(2).png)
 
 - Typed `:` `w` `q` `!` to save and quit out of the vim program
-- 
+  
 ### Step 8: Run the tests, demonstrating that they now succeed
 Took a quicker way and typed `Ctrl-R` followed by `b` `a` `s` then `<Enter>` to reobtain the command `bash tests.sh`. After pressing `<Enter>` once more, I obtained:
 ![Image](Photos/step8.png)

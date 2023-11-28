@@ -5,7 +5,7 @@
 ### Step 4: Log into ieng6
 I clicked on `Ctrl-R` to check the history of my recent searches and typed in `ss` followed by `<Enter>` to autofill to `ssh cs15lfa23nh@ieng.ucsd.edu` 
 
-![Image](step4.png)
+![Image](Photos/step4.png)
 
 ### Step 5: Clone your fork of the repository from your Github account (using the SSH URL)
 After copying the ssh URL from the forked repository on github, I typed in `git clone` followed by `command-V` to paste the ssh URL which was `git@github.com:sorryAri3/lab7.git` followed by `<Enter>`

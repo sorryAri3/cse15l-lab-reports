@@ -93,8 +93,6 @@ cp -r *.java grading-area
 cp -r lib grading-area
 cd grading-area
 
-# Then, add here code to compile and run, and do any post-processing of the
-# tests
 
 javac -cp $CPATH *.java
 
@@ -118,8 +116,6 @@ else
     echo "There is a test that has failed :("
 fi
 ```
-
-
 ### 2) TA Response:
 Upon evaluating the tests and looking over the code, I as the TA noticed there were some syntax errors and swapped variables - once I ran the test myself, I noticed the code compiled but there was a failed tests - now what could that have been? This is what I would challenge the student to look at once they fixed the minor bugs:
 

@@ -3,7 +3,6 @@
 ![Image](Photos/post1.png)
 
 ![Image](Photos/post2.png)
-
 #### The Code the student attached:
 **List-Examples.java:**
 ```
@@ -33,6 +32,7 @@ class ListExamples {
         result.add(list2.get(index2));
         index2 += 1;
       }
+
     }
     while(index1 < list1.size()) {
       result.add(list1.get(index1));

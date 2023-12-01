@@ -48,13 +48,9 @@ class ListExamples {
 **bash grade.sh script to run the tests:**
 ```
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
-
 rm -rf student-submission
 rm -rf grading-area
-
 mkdir grading-area
-
-
 git clone $1 student-submission
 echo 'Finished cloning'
 
@@ -98,7 +94,6 @@ Upon evaluating the tests and looking over the code, I as the TA noticed there w
 ![Image](Photos/response.png)
 
 #### The successful List.Examples.java code with the edited `Filter` method:
-
 ```
 import java.util.ArrayList;
 import java.util.List;
@@ -145,7 +140,6 @@ class ListExamples {
     return result;
   }
 
-}
 ```
 ## Part 2 - Reflection 
 As someone who only really knows basic Java, C++, and some Phython, this all is so new and interesting to me. Something I really did enjoy learning about was the "private and public" key. I could log in to my ssh server from my own computer without all the tedious passwords. VIM was something that was also an interesting learn, editing from the command line, though tedious was a quick and effective way to edit code. Finally `git add` `git commit` and `git push` - I found it so cool I was able to not have to "copy and paste" from my own computer code and could just update my github without issue with those commands. I hope to be learning more about CS in future courses as I have come to really enjoy the concepts.

@@ -71,14 +71,10 @@ rm -rf grading-area
 
 mkdir grading-area
 
-# Draw a picture/take notes on the directory structure that's set up after
-# getting to this point
 
 git clone $1 student-submission
 echo 'Finished cloning'
 
-## Recieve the files
-submission="student-submission"
 
 if ! [[ -e $submission ]]
 then

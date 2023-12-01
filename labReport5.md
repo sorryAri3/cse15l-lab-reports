@@ -3,7 +3,9 @@
 ## Part 1 - Debugging Scenario
 ### 1) Initial Post
 ![Image](Photos/post1.png)
+
 ![Image](Photos/post2.png)
+
 
 #### The Code the student attached:
 **List-Examples.java:**

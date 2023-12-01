@@ -11,7 +11,8 @@
 
 **List-Examples.java:**
 
-```import java.util.ArrayList;
+```
+import java.util.ArrayList;
 import java.util.List;
 
 interface StringChecker { boolean checkString(String s); }
@@ -56,12 +57,14 @@ class ListExamples {
       index2 += 1;
     }
     return result;
-  }```
+  }
+```
 
 
 **bash grade.sh script to run the tests:**
 
-```CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
+```
+CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
 
 rm -rf student-submission
 rm -rf grading-area
@@ -117,7 +120,8 @@ then
     echo "Passed 100% Yay!"
 else
     echo "There is a test that has failed :("
-fi```
+fi
+```
 
 
 ### 2) TA Response:
@@ -131,7 +135,8 @@ Upon evaluating the tests and looking over the code, I as the TA noticed there w
 
 #### The successful List.Examples.java code with the edited `Filter` method:
 
-```import java.util.ArrayList;
+```
+import java.util.ArrayList;
 import java.util.List;
 
 interface StringChecker { boolean checkString(String s); }
@@ -178,7 +183,8 @@ class ListExamples {
     return result;
   }
 
-}```
+}
+```
 
 
 ## Part 2 - Reflection 

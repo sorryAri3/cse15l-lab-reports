@@ -1,6 +1,5 @@
 # Lab Report 5
-### Part 1 - Debugging Scenario
-**Initial Post**
+### Part 1 - Debugging Scenario 
 ![Image](Photos/post1.png)
 ![Image](Photos/post2.png)
 

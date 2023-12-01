@@ -14,7 +14,6 @@ import java.util.List;
 interface StringChecker { boolean checkString(String s); }
 
 class ListExamples {
-
   // Returns a new list that has all the elements of the input list for which
   // the StringChecker returns true, and not the elements that return false, in
   // the same order they appeared in the input list;
@@ -27,8 +26,6 @@ class ListExamples {
     }
     return result;
   }
-
-
   // Takes two sorted list of strings (so "a" appears before "b" and so on),
   // and return a new list that has all the strings in both list in sorted order.
   static List<String> merge(List<String> list1, List<String> list2) {
@@ -68,7 +65,6 @@ mkdir grading-area
 git clone $1 student-submission
 echo 'Finished cloning'
 
-
 if ! [[ -e $submission ]]
 then
     echo "Error, nothing found"
@@ -80,7 +76,6 @@ then
 else
     echo "Valid file found"
 fi
-
 cp -r $submission/* grading-area
 cp -r *.java grading-area
 cp -r lib grading-area
@@ -107,9 +102,7 @@ fi
 ```
 ### 2) TA Response:
 Upon evaluating the tests and looking over the code, I as the TA noticed there were some syntax errors and swapped variables - once I ran the test myself, I noticed the code compiled but there was a failed tests - now what could that have been? This is what I would challenge the student to look at once they fixed the minor bugs:
-
 ![Image](Photos/TApost.png)
-
 ### 3) Success?!
 ![Image](Photos/response.png)
 

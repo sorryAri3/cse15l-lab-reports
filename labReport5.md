@@ -111,7 +111,6 @@ Upon evaluating the tests and looking over the code, I as the TA noticed there w
 ![Image](Photos/TApost.png)
 
 ### 3) Success?!
-
 ![Image](Photos/response.png)
 
 #### The successful List.Examples.java code with the edited `Filter` method:

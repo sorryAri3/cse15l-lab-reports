@@ -187,5 +187,5 @@ class ListExamples {
 
 
 ## Part 2 - Reflection 
-
+As someone who only really knows basic Java, C++, and some Phython, this all is so new and interesting to me. Something I really did enjoy learning about was the "private and public" key. I could log in to my ssh server from my own computer without all the tedious passwords. VIM was something that was also an interesting learn, editing from the command line, though tedious was a quick and effective way to edit code. Finally `git add` `git commit` and `git push` - I found it so cool I was able to not have to "copy and paste" from my own computer code and could just update my github without issue with those commands. I hope to be learning more about CS in future courses as I have come to really enjoy the concepts.
 

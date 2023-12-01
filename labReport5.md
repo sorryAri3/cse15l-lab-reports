@@ -56,10 +56,7 @@ class ListExamples {
       index2 += 1;
     }
     return result;
-  }
-
-
-} ```
+  }```
 
 
 **bash grade.sh script to run the tests:**

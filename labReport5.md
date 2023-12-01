@@ -1,7 +1,7 @@
 # Lab Report 5
 
 ## Part 1 - Debugging Scenario
-### 1) Initial Post
+#### 1) Initial Post
 ![Image](Photos/post1.png)
 
 ![Image](Photos/post2.png)
@@ -12,7 +12,6 @@
 ```
 import java.util.ArrayList;
 import java.util.List;
-
 interface StringChecker { boolean checkString(String s); }
 
 class ListExamples {
@@ -84,14 +83,12 @@ cp -r lib grading-area
 cd grading-area
 
 javac -cp $CPATH *.java
-
 testCode=$?
 if [[ $testCode -ne 0 ]]
 then 
     echo $testCode " could not compile"
     exit
 fi 
-
 java -cp $CPATH org.junit.runner.JUnitCore TestListExamples > output.txt
 failureString=`grep "FAILURES!!!" output.txt`
 

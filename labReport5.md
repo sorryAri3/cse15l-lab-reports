@@ -63,7 +63,8 @@ class ListExamples {
 ```
 **bash grade.sh script to run the tests:**
 
-``` CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
+```
+CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
 
 rm -rf student-submission
 rm -rf grading-area
@@ -134,7 +135,8 @@ Upon evaluating the tests and looking over the code, I as the TA noticed there w
 
 #### The successful List.Examples.java code with the edited `Filter` method:
 
-``` import java.util.ArrayList;
+```
+ import java.util.ArrayList;
 import java.util.List;
 
 interface StringChecker { boolean checkString(String s); }

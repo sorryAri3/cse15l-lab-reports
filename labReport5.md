@@ -1,5 +1,4 @@
-# Lab Report 5
-**Part 1:**
+
 ![Image](Photos/post1.png)
 ![Image](Photos/post2.png)
 

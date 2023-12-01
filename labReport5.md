@@ -4,11 +4,13 @@
 
 ### 1) Initial Post
 ![Image](Photos/post1.png)
+
 ![Image](Photos/post2.png)
 
 #### The Code the student attached:
 
 ![Image](Photos/ErrorCode1.png)
+
 ![Image](Photos/ErrorCode2.png)
 
 ### 2) 
